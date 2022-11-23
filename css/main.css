@@ -1,0 +1,257 @@
+.s-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    margin-right: 8px ;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.s-button:hover{
+    opacity: 0.8;
+}
+.s-button:active{
+    opacity: 0.5;
+}
+.j-button{
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color:rgb(41, 118, 211);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.j-button:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+.j-button:active{
+    opacity: 0.7;
+}
+.t-button{
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+    
+}
+.t-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.r-button{
+    background-color: black;
+    color: white;
+    border:60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold; 
+    cursor: pointer;
+    margin-right: 10px;
+}
+.r-button:hover{
+    opacity: 0.2;
+}
+.r-button:active{
+    opacity: 0.6;
+}
+.a-button{
+    background-color: rgb(255,216,20);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+    width: 300px;
+}
+.si-button{
+    background-color: rgb(46,164,79);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.g-button{
+     background-color: rgb(121, 82, 179);
+     color: antiquewhite;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 16px;
+     padding-right: 16px;
+     font-size: 15px;
+     border-radius: 10px;
+     font-weight: bold;
+     cursor: pointer;
+     border: none;
+
+}
+.d-button{
+    background-color:rgb(108, 107, 125);
+    color: plum;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 80px;
+
+}
+.c-button{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+    border-radius: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+}
+.save-button{
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 2px;
+    color:rgb(41, 118, 211);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+.Title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+   
+}
+.notice{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.author{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.apple-body{
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.shop-link{
+    cursor: pointer;
+}
+
+.shop-link:hover{
+    text-decoration: underline;
+}
+
+.head{
+    font-family: Verdana;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.sub-head{
+    font-family: Verdana;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgb(96, 96, 96);
+}
+
+.intro{
+    font-family: Verdana;
+    font-size: 28px;
+    line-height: 28px;
+    width: 490px;
+    margin-bottom: 50px;
+}
+
+.start-button{
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: Verdana;
+}
